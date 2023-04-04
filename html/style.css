@@ -1,0 +1,137 @@
+* {
+   font-family: "poppins", sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-weight: 400px;
+
+}
+
+.wrapper {
+   width: 100vw;
+   height: 100vh;
+}
+
+a {
+   font-size: 20px;
+   line-height: 100px;
+   margin-left: 80px;
+   color: #17233D;
+   cursor: pointer;
+
+}
+
+a:nth-child(2) {
+   opacity: 0.4;
+
+}
+
+a:hover {
+   opacity: .4;
+
+}
+
+a:active {
+   opacity: .8;
+}
+
+button {
+   background-color: #6FBF44;
+   padding: 20px;
+   margin-left: 50px;
+   border: none;
+   border-radius: 10px;
+   width: 100px;
+   height: 60px;
+   color: white;
+   cursor: pointer;
+}
+
+section {
+   display: inline-block;
+   margin-left: 100px;
+}
+
+header {
+   margin-bottom: 100px;
+
+}
+
+.container-right {
+   position: absolute;
+   width: 500px;
+   margin-top: 20%;
+   
+
+}
+
+p {
+   margin-top: 10px;
+   font-size: 20px;
+
+}
+
+#button2 {
+   margin-top: 10px;
+   background: none;
+   color: #6FBF44;
+   font-size: 20px;
+   line-height: 20px;
+   width: 151px;
+   cursor: pointer;
+
+
+
+}
+
+h1 {
+   color: #161A49;
+   font-size: 60px;
+}
+
+button:hover {
+   opacity: .4;
+}
+
+/* responsivel para celular*/
+@media screen and (max-width: 600px) {
+   div {
+      display: block;
+
+   }
+
+
+   header a {
+      display: none;
+
+
+   }
+
+   header {
+      margin-left: 400px;
+      margin-top: 20px;
+
+   }
+
+   .container-left {
+      position: absolute;
+      top: 700px;
+
+   }
+
+   h1 {
+      width: 500px;
+      margin-bottom: 60px;
+      text-align: center;
+   }
+
+   p {
+      text-align: center;
+   }
+
+   section {
+      text-align: center;
+   }
+
+
+}
