@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:ital,wght@0,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div>
+        <header>
+            <h1>HTML - CSS - formulario</h1>
+        </header>
+        <form method="get" enctype="multipart/form-data">
+            <nav>
+                <p class="cab">Digite seus Dados abaixo:</p>
+
+            </nav>
+            <div class="pessoal">
+                <label>
+                    <p>Dados Pessoais:</p>
+
+                    Nome: <input type="text"> Sobrenome: <input type="text">
+                    Nascimento: <input type="date" name="" id="">
+                    RG: <input type="number">
+                    CPF: <input type="number">
+
+                </label>
+            </div>
+            <div class="Endereço">
+                <label>
+                    <p>Dados de Endereço:</p>
+                    rua: <input placeholder="text"> numero: <input type="number">
+                    bairro: <input placeholder="text">
+                    Estado: <input type="text">
+                    Cidade: <input type="text" autocomplete="street-address">
+                    CEP: <input type="number">
+                </label>
+            </div>
+            <div class="Login">
+                <label>
+                    <p> Dados de Login:</p>
+                    E-mail: <input type="email" name="" id="">
+                    Imagem de Perfil: <input type="file" name="arquivo">
+                    Login de Usuario: <input type="text">
+                    Senha: <input type="password" name="" id="">
+                    Confirme a Senha: <input type="password" name="" id="">
+
+                </label>
+            </div>
+            <button type="submit">enviar</button> <button type="reset">limpar</button>
+        </form>
+    </div>
+
+</body>
+
+</html>
