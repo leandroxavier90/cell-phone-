@@ -1,10 +1,24 @@
-// Crie um programa que mostra o tamanho do Array.
-// Ex: const array = [0, 1] imprime: 2. const array = ["banana", "Maça", "laranja"] imprime: 3
+const  students =[
+    { name: 'rodolfo', testGrade: 7 },
+    { name: 'maria', testGrade: 8},
+    { name: 'ana', testGrade: 4 },
+    { name: 'carla', testGrade: 6 },
+    { name: 'bia', testGrade: 9},
+    { name: 'roberto', testGrade: 2 },
+    { name: 'bianca', testGrade: 10}
+  ]
+ const result = students.map((alunos) =>{
+       
+        let approvedOrNot
 
-const numbers = [ 1 ,2]
- console.log(numbers.length)
+         if(alunos.testGrade >= 7)  approvedOrNot = 'esta aprovado'
+         else {approvedOrNot = 'nao esta aprovado'};
 
-// const array = ["banana", "Maça", "laranja"] imprime: 3
-
-const fruits = ["banana", "Maça", "laranja"]
-console.log(fruits.length)
+     const newlistwithresult ={
+        name:alunos.name,
+        finalResult:approvedOrNot
+     }     
+         return newlistwithresult
+     
+ })
+    console.log(result)
